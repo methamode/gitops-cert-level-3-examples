@@ -33,6 +33,14 @@ spec:
         region: us 
         type: prod
         version: prod         
+      - env: qa
+        region: us
+        type: non-prod
+        version: staging    
+      - env: qa
+        region: us
+        type: non-prod
+        version: staging 
   template:      
     metadata:
       name: '{{.env}}' 
