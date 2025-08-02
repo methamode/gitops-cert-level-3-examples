@@ -33,11 +33,11 @@ spec:
         region: us 
         type: prod
         version: prod         
-      - env: qa
+      - env: integration-gpu
         region: us
         type: non-prod
         version: staging    
-      - env: qa
+      - env: integration-nonprod-gpu
         region: us
         type: non-prod
         version: staging 
